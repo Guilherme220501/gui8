@@ -1,6 +1,6 @@
 body{text-align: center;justify-content: center;align-items: center;background:linear-gradient(to right,white,blue,black);}
 h1{font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-decoration: underline;color: white;}
-h2{font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;color: red;text-shadow: 6px;}
+h2{font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;color: whitesmoke;text-shadow: 6px;}
 p{font-size: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: initial;text-shadow: 6px;color: whitesmoke;}
 dl{padding: 5px;}
 dt{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-align: left;padding: 5px;}
