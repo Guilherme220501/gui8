@@ -1,0 +1,11 @@
+body{text-align: center;justify-content: center;align-items: center;background:linear-gradient(to right,white,blue,black);}
+h1{font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-decoration: underline;color: white;}
+h2{font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;color: red;text-shadow: 6px;}
+p{font-size: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: initial;text-shadow: 6px;color: whitesmoke;}
+dl{padding: 5px;}
+dt{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-align: left;padding: 5px;}
+dd{font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: unset;text-shadow: 6px;padding: 5px;text-align: left;}
+thead{font-size: 20px;font-style: oblique;font-family: 'Times New Roman', Times, serif;text-shadow: 6px;text-align: left;}
+tbody{font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: inherit;text-shadow: 6px;text-align: left;}
+tfoot{font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: initial;text-shadow: 6px;text-align: left;}
+summary{width: 230px;margin: auto;border-radius: 10px 10px;text-shadow: 6px;}
