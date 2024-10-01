@@ -13,15 +13,14 @@ h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
 h2{font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: unset;text-shadow: 6px;color: white;}
 p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;font-size: 15px;color: black;text-shadow: 6px;}
 summary{width: 300px;text-shadow: 6px;padding: 10px;border-radius: 10px 10px;margin: auto;}
-details{padding: 30px;margin: auto;}
 #clock{width: 200px;margin: auto;border-radius: 10px 10px;background-color: blue;border: 6px solid white;color: white;box-shadow: 8px 8px 8px red;padding: 10px;font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: oblique;text-shadow: 6px;}
-form{align-items: center;justify-content: center;margin: auto;text-align: center;}
-fieldset{width: 300px;border: 6px solid white;background-color: black;border-radius: 10px 10px;margin: auto;box-shadow: 8px 8px 8px yellow;padding: 10px;align-items: center;justify-content: center;}
-.color1{background-color: blue;border: 6px solid white;box-shadow: 8px 8px 8px white;margin: auto;width: 130px;margin: auto;padding: 20px;border-radius: 10px 10px;align-items: center;justify-content: center;display: flex;flex-direction: column;}
+form{text-align: center;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+fieldset{width: 300px;border: 6px solid white;background-color: black;border-radius: 10px 10px;margin: auto;box-shadow: 8px 8px 8px yellow;padding: 10px;align-items: center;justify-content: center;display: flex;flex-direction: column;}
+.color1{align-items: center;justify-content: center;background-color: blue;border: 6px solid #ffffff;box-shadow: 8px 8px 8px white;margin: auto;width: 130px;margin: auto;padding: 20px;border-radius: 10px 10px;}
 .color2{width: 150px;margin: auto;border-radius: 10px 10px;background-color: beige;border: 6px solid red;box-shadow: 8px 8px 8px white;padding: 20px;align-items: center;justify-content: center;display: flex;flex-direction: column;}
 .color3{background-color: brown;border: 6px solid white;box-shadow: 8px 8px 8px white;margin: auto;width: 120px;border-radius: 10px 10px;align-items: center;justify-content: center;padding: 20px;display: flex;flex-direction: column;}
-label{font-size: 30px;font-style: oblique;font-family: 'Times New Roman', Times, serif;color: white;text-shadow: 6px;padding: 20px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
-input{width: 300px;border-radius: 10px 10px;background-color: beige;color: black;margin: auto;border: 6px solid blue;text-align: left;font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;padding: 10px;align-items: center;justify-content: center;display: flex;flex-direction: column;}
+label{font-size: 20px;font-style: oblique;font-family: 'Times New Roman', Times, serif;color: white;text-shadow: 6px;padding: 10px;align-items: center;justify-content: center;display: flex;flex-direction: column;}
+input{align-items: center;justify-content: center;display: flex;flex-direction: column;width: 300px;border-radius: 10px 10px;background-color: beige;color: black;margin: auto;border: 6px solid blue;text-align: left;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: initial;text-shadow: 6px;padding: 10px;}
 select{width: 200px;border-radius: 10px 10px;margin: auto;background-color: black;color: yellow;border: 6px solid white;box-shadow: 8px 8px 8px yellow;padding: 10px;font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: oblique;text-shadow: 6px;}
 textarea{height: 200px;width: 300px;border-radius: 10px 10px;margin: auto;background-color: bisque;color: black;font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: initial;box-shadow: 8px 8px 8px red;padding: 5px;}
 button{width: 200px;border-radius: 10px 10px;margin: auto;background-color: blue;color: white;border: 6px solid white;box-shadow: 8px 8px 8px red;padding: 10px;font-size: 15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: oblique;text-shadow: 6px;}
@@ -138,7 +137,7 @@ button{width: 200px;border-radius: 10px 10px;margin: auto;background-color: blue
 <input type="radio" value="Expert" name="Experiência" required>
 <label for="Excepcional">Excepcional</label>
 <input type="radio" value="Excepcional" name="Experiência" required>
-</details></div></div>
+</details></div>
 <br>
 <h2><big>Qual seu nível de <b style="color: red;">Conhecimento</b>?</big></h2>
 <br>
@@ -165,7 +164,7 @@ button{width: 200px;border-radius: 10px 10px;margin: auto;background-color: blue
 <input type="checkbox" value="Transformador" name="Conhecimento">
 <label for="Visionário">Visionário</label>
 <input type="checkbox" value="Visionário" name="Conhecimento">
-</details></div></div>
+</details></div>
 <br>
 <h2><big>Qual o seu <b style="color: red;">Signo</b>?</big></h2>
 <br>
@@ -198,7 +197,6 @@ button{width: 200px;border-radius: 10px 10px;margin: auto;background-color: blue
 <nav>
 <p>Retorne para minha página principal em <a href="index.html" target="_blank" rel="external" style="background-color: black;color: white;border-radius: 10px 10px;border: 6px solid white;text-shadow: 6px;box-shadow: 8px 8px 8px red;padding: 5px;">1ªPágina</a></p>
 </nav>   
-</details></div>
 </form>
 <br>
  <script src="script.js"></script>  
